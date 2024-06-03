@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCore03" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCore04" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCore2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCore5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCore6" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCoreWithXMLandAnotations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WithoutSpring1" vcs="Git" />
+  </component>
+</project>
