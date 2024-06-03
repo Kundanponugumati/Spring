@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    always create beans of dependencies objects first -->
+<!--    dependent class-->
+    <bean id="ff" class="org.example.beans.FirstFlight"/>
+    <bean id="fe" class="org.example.beans.FedEx"/>
+    <bean id="bd" class="org.example.beans.BlueDart"/>
+<!--    target class -->
+    <bean id="amazon" class="org.example.beans.Amazon">
+        <!--        here property tag means we're asking spring to inject using setter i.e setter injection-->
+        <property ref = "fe" name="service"> </property>
+        <!--        here constructor-arg tag means we're asking spring to inject using constructor i.e constructor injection-->
+        <constructor-arg ref="bd" name = "service"> </constructor-arg>
+
+    </bean>
+</beans>
